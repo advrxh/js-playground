@@ -13,3 +13,6 @@
 
 * ## **[RecipeApp](/RecipeApp)**
     * ![RecipeApp](screenshots/RecipeApp.png)
+
+* ## **[NotesApp](/NotesApp)**
+    * ![NotesApp](screenshots/NotesApp.png)
