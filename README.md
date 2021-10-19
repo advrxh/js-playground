@@ -3,13 +3,13 @@
 
 <br/>
 
-* ## **[CountDown Timer](https://github.com/AadilVarsh/js-playground/tree/master/CountdownTimer)**
+* ## **[CountDown Timer](/CountdownTimer)**
   
   * ![CountDown](screenshots/CountdownTimer.png)
 
-* ## **[QuizApp](https://github.com/AadilVarsh/js-playground/tree/master/QuizApp)**
+* ## **[QuizApp](/QuizApp)**
 
     * ![QuizApp](screenshots/QuizApp.png)
 
-* ## **[RecipeApp](https://github.com/AadilVarsh/js-playground/tree/master/RecipeApp)**
+* ## **[RecipeApp](/RecipeApp)**
     * ![RecipeApp](screenshots/RecipeApp.png)
