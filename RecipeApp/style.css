@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.search {
+    width: 40%;
+    padding: 1em 0em;
+    margin: 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input,
+.search input:active {
+    width: 80%;
+    padding: .5em 1.5em;
+    border-radius: 30px;
+    border: 2px solid #ff97bf;
+}
+
+.search input::placeholder {
+    padding: 0em .6em;
+    font-weight: bolder;
+}
+
+.search button {
+    border: none;
+    background: none;
+    margin: .3em .5em;
+    font-size: 1.5em;
+    color: grey;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+.search button:hover {
+    color: rgb(109, 108, 108);
+}
+
+.recipes {
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    border: 2px solid #ff97bf;
+    padding: 1em;
+}
+
+.heading {
+    color: #ff97bf;
+    font-size: 1.8rem;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+.heading:hover {
+    color: #f86fa3;
+}
+
+.recipe-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#utube-icon {
+    color: grey;
+    font-size: 32px;
+    transition: .1s ease-in-out;
+}
+
+#utube-icon:hover {
+    color: rgb(85, 83, 83);
+}
+
+.thumb {
+    width: 60%;
+    height: auto;
+    margin: .8em 0em;
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(131, 130, 130);
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.tags li {
+    margin: .2em;
+    padding: .2em .5em;
+    color: #ff97bf;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.recipe-popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: rgba(128, 128, 128, 0.472);
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.recipe-popup #popup {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    bottom: 1;
+    background-color: white;
+    box-shadow: 10px 10px 100px #000000;
+}
+
+.youtubeEmbed {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em;
+}
+
+iframe {
+    width: 60%;
+    height: 25rem;
+}
+
+#popupThumb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em;
+}
+
+#popupThumb img {
+    width: 40%;
+    height: auto;
+    border: 5px solid grey;
+}
+
+#popup .heading {
+    text-align: center;
+    margin: .5rem 1rem;
+    font-size: 2rem;
+}
+
+#popup #content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1.5rem;
+}
+
+#popup #content p {
+    width: 75%;
+}
+
+#popup .ingrdnts {
+    list-style: square;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin: 0rem 3rem;
+    font-weight: bolder;
+}
+
+#popup .ingrdnts .ingrdnt .name::after {
+    content: " - ";
+}
+
+.close-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.close-btn button {
+    border: none;
+    background: none;
+    color: #ff97bf;
+    font-size: 34px;
+}
+
+.close-btn button:hover {
+    color: #ff97bf;
+}

@@ -10,3 +10,6 @@
 * ## **[QuizApp](https://github.com/AadilVarsh/js-playground/tree/master/QuizApp)**
 
     * ![QuizApp](screenshots/QuizApp.png)
+
+* ## **[RecipeApp](https://github.com/AadilVarsh/js-playground/tree/master/RecipeApp)**
+    * ![RecipeApp](screenshots/RecipeApp.png)
