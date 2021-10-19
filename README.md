@@ -17,4 +17,4 @@
 * ## **[NotesApp](/NotesApp)**
     * ![NotesApp](screenshots/NotesApp.png)
 
-# Inspired from [**Florin Pops**💙](https://github.com/florinpop17/10-projects-10-hours)
+# Inspired by [**Florin Pops**💙](https://github.com/florinpop17/10-projects-10-hours)
