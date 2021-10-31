@@ -4,17 +4,37 @@
 <br/>
 
 * ## **[CountDown Timer](/CountdownTimer)**
-  
-  * ![CountDown](screenshots/CountdownTimer.png)
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![CountDown](screenshots/CountdownTimer.png)
+
+        </details>
 
 * ## **[QuizApp](/QuizApp)**
+    * <details>
+        <summary>Preview 👇</summary>
 
-    * ![QuizApp](screenshots/QuizApp.png)
+        ![CountDown](screenshots/QuizApp.png)
+
+        </details>
 
 * ## **[RecipeApp](/RecipeApp)**
-    * ![RecipeApp](screenshots/RecipeApp.png)
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![CountDown](screenshots/RecipeApp.png)
+
+        </details>
+
 
 * ## **[NotesApp](/NotesApp)**
-    * ![NotesApp](screenshots/NotesApp.png)
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![CountDown](screenshots/NotesApp.png)
+
+        </details>
+
 
 # Inspired by [**Florin Pops**💙](https://github.com/florinpop17/10-projects-10-hours)
