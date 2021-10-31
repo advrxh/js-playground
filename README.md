@@ -15,7 +15,7 @@
     * <details>
         <summary>Preview 👇</summary>
 
-        ![CountDown](screenshots/QuizApp.png)
+        ![QuizApp](screenshots/QuizApp.png)
 
         </details>
 
@@ -23,7 +23,7 @@
     * <details>
         <summary>Preview 👇</summary>
 
-        ![CountDown](screenshots/RecipeApp.png)
+        ![RecipeApp](screenshots/RecipeApp.png)
 
         </details>
 
@@ -32,7 +32,15 @@
     * <details>
         <summary>Preview 👇</summary>
 
-        ![CountDown](screenshots/NotesApp.png)
+        ![NotesApp](screenshots/NotesApp.png)
+
+        </details>
+
+* ## **[TodoApp](/TodoApp)**
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![TodoApp](screenshots/TodoApp.png)
 
         </details>
 
