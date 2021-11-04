@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #1f209a;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0em 1.5em;
+    flex-direction: column;
+}
+
+nav .logo-text {
+    text-decoration: none;
+    padding: 1em 0em;
+    color: white;
+    font-weight: bolder;
+}
+
+nav .logo-text span {
+    font-weight: lighter;
+    color: rgb(206, 205, 205);
+}
+
+nav .search {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .search .inp {
+    padding: .2em;
+    width: 90%;
+    background: none;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .search .btn {
+    background: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+nav .search .btn:hover {
+    color: rgb(224, 224, 224);
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    margin: 1em;
+}
+
+.head .movies-head {
+    color: white;
+    font-size: larger;
+}
+
+.head .movies-head i {
+    color: rgb(197, 195, 195);
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0em 2em;
+}
+
+.movie {
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.movie .thumb {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.movie .foot {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1em 0em;
+    padding: 0em 1em;
+}
+
+.foot .title {
+    color: white;
+    font-weight: bolder;
+}
+
+.foot p {
+    color: rgb(150, 148, 148);
+}
+
+.foot i {
+    color: rgb(255, 176, 73);
+}
+
+.foot span {
+    color: white;
+}
+
+nav .logo-text {
+    cursor: pointer;
+}
+
+.err {
+    color: white;
+}

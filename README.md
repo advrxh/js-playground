@@ -44,5 +44,14 @@
 
         </details>
 
+* ## **[MovieApp](/MovieApp)**
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![MovieApp](screenshots/MovieApp.png)
+
+        </details>
+
+
 
 # Inspired by [**Florin Pops**💙](https://github.com/florinpop17/10-projects-10-hours)
