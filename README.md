@@ -52,6 +52,10 @@
 
         </details>
 
+* ## **[GithubProfilesApp](/GithubProfiles)**
+    * <details>
+        <summary>Preview 👇</summary>
 
+        ![GithubProfilesApp](screenshots/GithubProfilesApp.png)
 
-# Inspired by [**Florin Pops**💙](https://github.com/florinpop17/10-projects-10-hours)
+        </details>
