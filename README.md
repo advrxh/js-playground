@@ -59,3 +59,13 @@
         ![GithubProfilesApp](screenshots/GithubProfilesApp.png)
 
         </details>
+
+* ## **[PasswordGenerator](/PasswordGenerator)**
+    * <details>
+        <summary>Preview 👇</summary>
+
+        ![PasswordGenerator](screenshots/PasswordGenerator.png)
+
+        </details>
+
+
