@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+        <title>Password Gen</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h3 id="head">Get a strong password 👇</h3>
+            <div class="slider-cont">
+                <input
+                    type="range"
+                    name="length"
+                    id="pwd-len"
+                    min="4"
+                    max="120"
+                    value="12"
+                    class="length-slider"
+                />
+                <span id="pwd-len-display">12</span>
+            </div>
+            <div class="config">
+                <label for="inc-upr">UpperCase</label>
+                <input
+                    type="checkbox"
+                    class="check-btn"
+                    id="inc-upr"
+                    value="1"
+                />
+                <label for="inc-lwr">LowerCase</label>
+                <input
+                    type="checkbox"
+                    class="check-btn"
+                    id="inc-lwr"
+                    value="1"
+                />
+                <label for="inc-num">Numbers</label>
+                <input
+                    type="checkbox"
+                    class="check-btn"
+                    id="inc-num"
+                    value="1"
+                />
+                <label for="inc-spcl">SpecialChars</label>
+                <input
+                    type="checkbox"
+                    class="check-btn"
+                    id="inc-spcl"
+                    value="1"
+                />
+            </div>
+            <div id="out-cont">
+                <h3 id="out">password</h3>
+            </div>
+        </div>
+    </body>
+</html>
