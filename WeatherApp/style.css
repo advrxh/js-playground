@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #082032;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393E46;
+}
+
+.weather-comp {
+    margin: 1em;
+    padding: 1em;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BBBBBB;
+    border: 5px solid #FF4C29;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#climate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#temp {
+    font-size: 3em;
+}
+
+#temp span {
+    font-size: 2.6rem;
+}
+
+
+#temp::after{
+    content: 'C';
+    font-size: 2rem;
+}
+
+#msg {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#condition {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#tz {
+    font-size: .8rem;
+    text-align: center;
+}
+
+#country {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#inp-cmp {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
