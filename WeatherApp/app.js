@@ -2,15 +2,7 @@
 
 // localstorage
 const getKey = () => {
-    key = JSON.parse(localStorage.getItem("key"));
-
-    if (!key) {
-        newKey = prompt("Enter API key.");
-        localStorage.setItem("key", JSON.stringify({ key: newKey }));
-        location.reload(true)
-    }
-
-    return key.key;
+    return "589d96b413e64e318f5125707211507"
 };
 
 // fetch weather msgs and cache them
