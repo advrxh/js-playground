@@ -69,4 +69,10 @@
 
         </details>
 
+* ## **[WeatherApp](/WeatherApp)**
+    * <details>
+        <summary>Preview 👇</summary>
 
+        ![WeatherApp](screenshots/WeatherApp.png)
+
+        </details>
