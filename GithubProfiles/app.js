@@ -3,8 +3,6 @@
 // component rendering
 
 const renderProfile = (user) => {
-    console.log(user);
-
     const avatar = document.querySelector(".pfp a img");
     avatar.src = user.avatar;
     avatar.alt = user.name;
