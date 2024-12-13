@@ -57,7 +57,7 @@
     * <details>
         <summary>Preview 👇</summary>
 
-        ![GithubProfilesApp](screenshots/GithubProfilesApp.png)
+        ![GithubProfilesApp]()
 
         </details>
 
